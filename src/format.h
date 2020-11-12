@@ -20,7 +20,7 @@
 #define TR4_TYPES_START       3000
 
 
-#define TR_TYPES(E) \
+#include TR_TYPES(E) \
     E( LARA                  = TR1_TYPES_START) \
     E( LARA_PISTOLS          ) \
     E( LARA_SHOTGUN          ) \
