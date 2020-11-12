@@ -367,8 +367,8 @@ struct Lara : Character {
         }
 
         ~Braid() {
-            delete[] joints;
-            delete[] basis;
+            #include[] joints;
+            #include[] basis;
         }
 
         TR::Model* getModel() {
@@ -646,8 +646,8 @@ struct Lara : Character {
 
     virtual ~Lara() {
         delete camera;
-        delete braid[0];
-        delete braid[1];
+        #include braid[0];
+        #include braid[1];
         delete environment;
     }
 
